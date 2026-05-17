@@ -30,12 +30,12 @@ class EyeMetrologyEvaluator:
         """
         與真實值進行比對
         """
-        # 妳在 XML 的原始解析內容就在 gt_info 裡
+        
         eval_item = {'E1': np.nan, 'E2': np.nan, 'E_Inter': np.nan}
         preds_for_match = pred_results['preds'].copy()
         matched_preds = []
 
-        # 這裡會用到妳定義的 c1, c2 ID
+        
         for gt_cat in gt_info.get('cats', []):
             if not preds_for_match:
                 break
@@ -46,7 +46,7 @@ class EyeMetrologyEvaluator:
             best_pred = preds_for_match.pop(best_idx)
             matched_preds.append(best_pred)
 
-            # 使用妳的 c1/c2 邏輯區分誤差
+            
             err = abs(best_pred['dist'] - gt_cat['dist'])
             if gt_cat['id'] == 'c1':
                 eval_item['E1'] = err
@@ -71,7 +71,7 @@ class EyeMetrologyEvaluator:
             print(f"{r['File']:<30} | {r['Cats']:<4} | {r['Cat1_Dist']:<10} | {r['Cat2_Dist']:<10} | {r['Inter_Dist']:<10}")
         print("="*80)
 
-        print("\n🎯 距離預測誤差分析 (Evaluation Report)")
+        print("\n距離預測誤差分析 (Evaluation Report)")
         print("="*85)
         print(f"{'檔案名稱':<25} | {'貓1誤差':<10} | {'貓2誤差':<10} | {'兩貓間距誤差':<12}")
         print("-" * 85)
