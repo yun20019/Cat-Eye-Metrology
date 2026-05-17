@@ -21,7 +21,7 @@ class CatSegmentation:
         self.sam_predictor = SamPredictor(sam)
 
     # ==========================================
-    # Part A: COCO 官方基準評估 (貓隻輪廓 IoU)
+    # Part A: 貓咪輪廓
     # ==========================================
     def calculate_iou(self, mask1, mask2):
         """計算兩張二值化 Mask 的 IoU"""
@@ -71,17 +71,16 @@ class CatSegmentation:
             results_list.append({'file_name': fname, 'IoU': round(iou_score, 4)})
 
         df_eval = pd.DataFrame(results_list)
-        print(f"\n🏆 Evaluation Summary (mIoU: {df_eval['IoU'].mean():.4f})")
+        print(f"\nEvaluation Summary (mIoU: {df_eval['IoU'].mean():.4f})")
         return df_eval
 
     # ==========================================
-    # Part B: Hybrid 眼睛分割與定位 (自研專案評估)
+    # Part B: 眼睛分割與定位 
     # ==========================================
     def run_eye_refinement(self, img_dir, df_gt, target_visualize=None):
         eval_results = []
         exclude_list = ['00000049810.jpg', '000000411665.jpg', '000000063552.jpg']
 
-        print(f"🧬 啟動 Hybrid 模式：Keypoint 定位 + SAM 語義細緻化...")
 
         for _, row in df_gt.iterrows():
             fname = row['file_name']
