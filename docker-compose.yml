@@ -1,0 +1,17 @@
+services:
+  cat-evaluator:
+    build: .
+    image: cat-eye-pipeline:latest
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - .:/app
+      - ./data:/app/data
+      - ./weights:/app/weights
+      - ./output:/app/output
+    command: python main.py

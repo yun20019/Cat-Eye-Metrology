@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>2254220</id>
+      <name>cat</name>
+      <size>16</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-05-16 04:46:20.457140+00:00</created>
+      <updated>2026-05-16 05:00:37.798729+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>15</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3993638</id>
+          <start>0</start>
+          <stop>15</stop>
+          <url>https://app.cvat.ai/api/tasks/2254220/dataset/export/api/jobs/3995365</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>yun20019</username>
+        <email>yun20019@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>c1_left</name>
+          <color>#46c8fd</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>c1_right</name>
+          <color>#30974e</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>c2_left</name>
+          <color>#8050b5</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>c2_right</name>
+          <color>#13d51b</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-05-16 05:27:11.969026+00:00</dumped>
+  </meta>
+  <image id="0" name="000000039769.jpg" width="640" height="480">
+    <points label="c1_right" source="manual" occluded="0" points="268.75,107.35" z_order="0">
+    </points>
+    <points label="c2_right" source="manual" occluded="0" points="438.82,348.63" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="449.27,313.33" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="275.69,122.97" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="000000049810.jpg" width="640" height="424">
+    <points label="c1_left" source="manual" occluded="0" points="149.58,207.20" z_order="0">
+    </points>
+    <points label="c1_right" source="manual" occluded="0" points="152.20,184.88" z_order="0">
+    </points>
+  </image>
+  <image id="2" name="000000063552.jpg" width="640" height="586">
+    <points label="c1_right" source="manual" occluded="0" points="405.09,139.69" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="508.48,148.52" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="000000077396.jpg" width="640" height="480">
+    <points label="c1_left" source="manual" occluded="0" points="140.08,451.08" z_order="0">
+    </points>
+    <points label="c1_right" source="manual" occluded="0" points="129.08,467.27" z_order="0">
+    </points>
+  </image>
+  <image id="4" name="000000117374.jpg" width="640" height="428">
+    <points label="c1_right" source="manual" occluded="0" points="73.22,238.62" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="79.22,239.51" z_order="0">
+    </points>
+  </image>
+  <image id="5" name="000000187236.jpg" width="640" height="480">
+    <points label="c1_right" source="manual" occluded="0" points="288.53,157.77" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="296.22,135.33" z_order="0">
+    </points>
+  </image>
+  <image id="6" name="000000333772.jpg" width="500" height="375">
+    <points label="c2_left" source="manual" occluded="0" points="229.28,292.76" z_order="0">
+    </points>
+    <points label="c1_right" source="manual" occluded="0" points="157.70,167.91" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="182.67,165.69" z_order="0">
+    </points>
+    <points label="c2_right" source="manual" occluded="0" points="202.09,297.75" z_order="0">
+    </points>
+  </image>
+  <image id="7" name="000000398810.jpg" width="500" height="500">
+    <points label="c1_right" source="manual" occluded="0" points="111.62,160.96" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="128.17,162.03" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="242.46,226.66" z_order="0">
+    </points>
+  </image>
+  <image id="8" name="000000402473.jpg" width="640" height="480">
+    <points label="c1_left" source="manual" occluded="0" points="117.17,253.67" z_order="0">
+    </points>
+    <points label="c1_right" source="manual" occluded="0" points="95.68,294.60" z_order="0">
+    </points>
+    <points label="c2_right" source="manual" occluded="0" points="545.91,170.79" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="576.61,211.72" z_order="0">
+    </points>
+  </image>
+  <image id="9" name="000000409867.jpg" width="428" height="640">
+    <points label="c1_right" source="manual" occluded="0" points="126.07,504.85" z_order="0">
+    </points>
+  </image>
+  <image id="10" name="000000411665.jpg" width="640" height="427">
+    <points label="c1_left" source="manual" occluded="0" points="139.24,236.49" z_order="0">
+    </points>
+    <points label="c1_right" source="manual" occluded="0" points="80.56,245.71" z_order="0">
+    </points>
+  </image>
+  <image id="11" name="000000413395.jpg" width="640" height="421">
+    <points label="c1_left" source="manual" occluded="0" points="103.78,310.83" z_order="0">
+    </points>
+    <points label="c1_right" source="manual" occluded="0" points="63.28,310.00" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="307.93,244.70" z_order="0">
+    </points>
+    <points label="c2_right" source="manual" occluded="0" points="279.00,246.36" z_order="0">
+    </points>
+  </image>
+  <image id="12" name="000000478393.jpg" width="480" height="640">
+    <points label="c1_right" source="manual" occluded="0" points="141.48,220.09" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="159.37,215.62" z_order="0">
+    </points>
+    <points label="c2_right" source="manual" occluded="0" points="207.25,429.04" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="235.44,426.81" z_order="0">
+    </points>
+  </image>
+  <image id="13" name="000000551815.jpg" width="640" height="480">
+    <points label="c1_right" source="manual" occluded="0" points="152.65,268.74" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="194.93,219.04" z_order="0">
+    </points>
+    <points label="c2_right" source="manual" occluded="0" points="300.26,263.55" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="372.96,265.03" z_order="0">
+    </points>
+  </image>
+  <image id="14" name="000000555705.jpg" width="640" height="371">
+    <points label="c1_right" source="manual" occluded="0" points="241.65,140.35" z_order="0">
+    </points>
+    <points label="c1_left" source="manual" occluded="0" points="289.81,142.07" z_order="0">
+    </points>
+    <points label="c2_right" source="manual" occluded="0" points="350.58,109.39" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="403.33,113.98" z_order="0">
+    </points>
+  </image>
+  <image id="15" name="000000570664.jpg" width="500" height="333">
+    <points label="c1_left" source="manual" occluded="0" points="313.59,175.13" z_order="0">
+    </points>
+    <points label="c1_right" source="manual" occluded="0" points="299.60,161.14" z_order="0">
+    </points>
+    <points label="c2_left" source="manual" occluded="0" points="260.27,52.75" z_order="0">
+    </points>
+  </image>
+</annotations>
